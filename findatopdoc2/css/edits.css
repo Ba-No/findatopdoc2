@@ -196,10 +196,11 @@ header img{
 
 }
 .device-2{
-    max-width: 100%;
+    max-width: 130%;
     position: relative;
     margin-bottom: -5px;
-    margin-top: 45px;
+    margin-top: 10px;
+    margin-left: -25px;
 }
 .fet-left-ul, .fet-right-ul, .info-ul, .phealth-ul {
     list-style: none;
