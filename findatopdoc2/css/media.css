@@ -1,0 +1,115 @@
+@media (min-width: 1200px) {
+    .watch-img{
+        bottom: 70px;
+        left: -30px;
+    }
+    .sec-1 .col-sm-8{
+        padding: 30px 15px;
+    }
+}
+@media (max-width: 992px) { 
+    .watch-img{display: none;}
+    .sec-2{
+        padding: 50px 0 150px;
+        overflow: hidden;
+    }
+    .con2{
+        margin-top: 70px;
+    }
+    .fet-left-ul, .fet-right-ul{
+        padding: 0;
+    }
+    .first-right-li{
+        margin-top: 0!important;
+    }
+    .second-img{
+        order: 3;
+    }
+    .sec-4{
+        padding-bottom: 50px;
+    }
+    .mob-img-view{
+        display: block;
+    }
+    .web-img-view{
+        display: none;
+    }
+    .sec-4 .container-fluid{padding-left: 15px;}
+    .pad-m-50{
+        padding-top: 50px;
+    }
+    .device-2{
+        max-width: 160%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 768px) { 
+    .con h1{
+        font-size: 40px;
+    }
+    .con p{
+        font-size: 20px;
+    }
+    .con button {
+        font-size: 17px;
+        padding: 10px 20px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .virues-1{
+        top: 0;
+        left: 0;
+    }
+    .virues-3{
+        bottom: 0;
+        left: 60px;
+    }
+    .watch-img{
+        left: -20px!important;
+    }
+    .fet-left-ul li, .fet-right-ul li{
+        font-size: 15px;
+    }
+    .sec-4 h2{font-size: 30px;}
+    .sec-4 .col-md-4{
+        order: 2;
+    }
+    .sec-4 .col-md-8{
+        padding-top: 0;
+    }
+    #car-vid{display: none;}
+    .sec-1 .col-sm-8{
+        padding: 0 15px;
+    }
+
+}
+@media (max-width: 576px) { 
+    .txt-center{
+        text-align: center;
+    }
+    .virues-1{
+        top: -10px;
+        left: 15px;
+    }
+    .virues-3{
+        display: none;
+    }
+    .watch-img{
+        display: none;
+    }
+    
+    form{
+        height: auto!important;
+    }
+    form input, form textarea, form button{
+        width: -webkit-fill-available;
+    }
+    .first-img{
+        order: 2;
+    }
+    .first-last-li::before{
+        content: "";
+    }
+}
