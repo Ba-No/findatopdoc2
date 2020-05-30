@@ -163,12 +163,7 @@ header img{
     width: 25px;
     height: 25px;
     left: 0;
-    top: 50%;
-    transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    -moz-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    -o-transform: translate(0, -50%);
+    top: 0;
 }
 .con2 video{max-width: 80%; z-index: 2;}
 .vid-back{
@@ -223,12 +218,7 @@ header img{
     width: 25px;
     height: 25px;
     left: 0;
-    top: 50%;
-    transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    -moz-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    -o-transform: translate(0, -50%);
+    top: 0;
 }
 
 .sec-4{
@@ -267,14 +257,7 @@ header img{
 .info-ul li {
     margin: 5px 0;
 }
-.info-ul li::before{
-    top:0;
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-}
+
 
 
 .sec-5{
