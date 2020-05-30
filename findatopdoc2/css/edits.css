@@ -214,7 +214,6 @@ header img{
     position: relative;
 }
 .fet-left-ul li, .fet-right-ul li{margin: 45px;}
-.info-ul li {margin: 10px 0;}
 .fet-left-ul li::before, .fet-right-ul li::before, .info-ul li::before, .phealth-ul li::before {
     content: "";
     position: absolute;
@@ -254,7 +253,29 @@ header img{
     font-family: "circular std medium";
     color: #003a51;
     text-transform: capitalize;
+    margin-bottom: 0;
 }
+.sec-4 .my-p{
+    margin-bottom: 18px;
+}
+.info-ul{
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.info-ul li {
+    margin: 5px 0;
+}
+.info-ul li::before{
+    top:0;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
 
 .sec-5{
     background-color: #c0e9ed;
